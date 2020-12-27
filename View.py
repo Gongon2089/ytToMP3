@@ -3,10 +3,10 @@ import downloader as d
 
 
 def showWindow():
-    layout = [[sg.Text("Enter URL")], [sg.Input(key='-URL-')], [sg.Input(key='-NAME-', size=(20,1))], [sg.Text(size=(40,1), key='-OUTPUT-')], [sg.Button("SUBMIT")]]
+    layout = [[sg.Text("Enter URL")], [sg.Input(key='-URL-')], [sg.Text("Name: (Empty for default)"), sg.Input(key='-NAME-', size=(22,1))], [sg.Text(size=(40,1), key='-OUTPUT-')], [sg.Button("SUBMIT")]]
 
     # Create the window
-    window = sg.Window("Input", layout)
+    window = sg.Window("YTtoMP3", layout)
 
     # Create an event loop
     while True:
