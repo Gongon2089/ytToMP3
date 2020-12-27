@@ -5,8 +5,9 @@ import pytube as p
 import getpass
 
 
-def download(URL, name):
+# TODO playlist downloader
 
+def download(URL, name):
     ytObj = p.YouTube(URL)
     stream = ytObj.streams.get_by_itag(22)
     if stream is None:
