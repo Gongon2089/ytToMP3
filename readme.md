@@ -1,1 +1,1 @@
-Projecto to download YouTube videos as mp3 files.
+Project to download YouTube videos as mp3 files.
